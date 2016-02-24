@@ -1,0 +1,1 @@
+define(["modules/jquery-mozu"],function(t){t(document).ready(function(){t("[data-mz-contextify]").each(function(){var n=t(this),a=n.data();n.find(a.mzContextify).each(function(){var n=t(this);"class"===a.mzContextifyAttr?n.addClass(a.mzContextifyVal):n.prop(a.mzContextifyAttr,a.mzContextifyVal)})})})});

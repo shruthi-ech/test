@@ -1,0 +1,1 @@
+define(["modules/jquery-mozu","shim!vendor/owl-carousel/owl-carousel[jQuery=jquery]"],function(e){e(document).ready(function(){e("[data-mz-product-carousel-widget]").each(function(){var o=e(this),a="mz-product-carousel-widget";o.owlCarousel({navigation:!0,navigationText:!1,theme:a,lazyLoad:!0}),require.mozuData("pagecontext").isDebugMode&&console.log(a)})})});

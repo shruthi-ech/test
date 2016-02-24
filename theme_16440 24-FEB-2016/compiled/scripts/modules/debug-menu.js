@@ -1,0 +1,1 @@
+define(["jquery"],function(e){var o=e("body"),c=e('[data-mz-role="debug"]'),n=e('[data-mz-role="debug-close"]'),t=function(){c.toggle()};e(document).ready(function(){o.on("dblclick",function(e){(e.ctrlKey||e.metaKey)&&t()}),n.on("click",t),window.console.log("Debug menu active. Cmd/Ctrl + double click to activate!")})});
